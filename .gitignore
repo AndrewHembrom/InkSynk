@@ -1,0 +1,27 @@
+# Global
+.DS_Store
+node_modules
+dist
+.env
+.env.local
+.env.development
+.env.production
+*.log
+
+# Client (Vite + React + Tailwind)
+client/node_modules/
+client/dist/
+client/.vite/
+client/.env
+
+# Server (Express + TypeScript)
+server/node_modules/
+server/dist/
+server/.env
+server/*.log
+
+# Optional: VS Code workspace settings
+.vscode/
+
+# OS-specific
+Thumbs.db
